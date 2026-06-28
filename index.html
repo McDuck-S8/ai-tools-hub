@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Hub — Лучшие AI-инструменты для бизнеса</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero p { font-size: 1.2em; color: #aaa; max-width: 600px; margin: 0 auto; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .section-title {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #fff;
+        }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+        .tool-card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 25px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .tool-card:hover {
+            transform: translateY(-3px);
+            border-color: #3a7bd5;
+        }
+        .tool-card h3 {
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .tool-card .tag {
+            display: inline-block;
+            background: #3a7bd5;
+            color: #fff;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-bottom: 12px;
+        }
+        .tool-card p { color: #999; margin-bottom: 15px; font-size: 0.95em; }
+        .tool-card .price {
+            font-size: 1.1em;
+            color: #00d2ff;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #3a7bd5, #00d2ff);
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: opacity 0.2s;
+        }
+        .cta-btn:hover { opacity: 0.85; }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .feature { text-align: center; padding: 20px; }
+        .feature .icon { font-size: 2.5em; margin-bottom: 15px; }
+        .feature h4 { color: #fff; margin-bottom: 8px; }
+        .feature p { color: #888; font-size: 0.9em; }
+        .cta-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: #111;
+            border-radius: 12px;
+            margin: 40px 0;
+        }
+        .cta-section h2 { font-size: 1.8em; margin-bottom: 15px; color: #fff; }
+        .cta-section p { color: #999; margin-bottom: 25px; }
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #555;
+            font-size: 0.85em;
+            border-top: 1px solid #222;
+        }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8em; }
+            .tools-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>🤖 AI Tools Hub</h1>
+        <p>Лучшие AI-инструменты для автоматизации бизнеса. Экономьте время и деньги с искусственным интеллектом.</p>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">🔥 Популярные инструменты</h2>
+        <div class="tools-grid">
+            <div class="tool-card">
+                <span class="tag">Автопостинг</span>
+                <h3>AI-постер для соцсетей</h3>
+                <p>Автоматически генерируйте и публикуйте посты в Telegram, Instagram, VK. AI создаёт контент, вы одобряете.</p>
+                <div class="price">от 990₽/мес</div>
+                <a href="https://t.me/ai_tools_hub" class="cta-btn">Попробовать бесплатно →</a>
+            </div>
+            <div class="tool-card">
+                <span class="tag">Боты</span>
+                <h3>Telegram-бот для записей</h3>
+                <p>Бот для салонов, врачей, мастеров. Принимает записи 24/7, напоминает, ведёт базу клиентов.</p>
+                <div class="price">от 1 490₽/мес</div>
+                <a href="https://t.me/ai_tools_hub" class="cta-btn">Заказать бота →</a>
+            </div>
+            <div class="tool-card">
+                <span class="tag">Аналитика</span>
+                <h3>AI-аналитик данных</h3>
+                <p>Загрузите CSV/Excel — AI найдёт тренды, аномалии, сделает прогноз. Отчёт за 2 минуты.</p>
+                <div class="price">от 490₽/мес</div>
+                <a href="https://t.me/ai_tools_hub" class="cta-btn">Анализировать данные →</a>
+            </div>
+            <div class="tool-card">
+                <span class="tag">Контент</span>
+                <h3>AI-генератор контента</h3>
+                <p>Посты, статьи, описания товаров, рассылки. Научится писать в вашем стиле за 10 примеров.</p>
+                <div class="price">от 690₽/мес</div>
+                <a href="https://t.me/ai_tools_hub" class="cta-btn">Генерировать контент →</a>
+            </div>
+            <div class="tool-card">
+                <span class="tag">CRM</span>
+                <h3>AI-CRM для малого бизнеса</h3>
+                <p>Автоматическая сегментация клиентов, прогноз оттока, персональные рекомендации.</p>
+                <div class="price">от 1 990₽/мес</div>
+                <a href="https://t.me/ai_tools_hub" class="cta-btn">Подключить CRM →</a>
+            </div>
+            <div class="tool-card">
+                <span class="tag">Обучение</span>
+                <h3>AI-репетитор</h3>
+                <p>Персональный AI-учитель: математика, языки, программирование. Адаптируется под уровень.</p>
+                <div class="price">от 590₽/мес</div>
+                <a href="https://t.me/ai_tools_hub" class="cta-btn">Начать учиться →</a>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="icon">⚡</div>
+                <h4>Быстрый старт</h4>
+                <p>Подключение за 5 минут. Без серверов и настройки.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">🔒</div>
+                <h4>Безопасность</h4>
+                <p>Данные не покидают ваш аккаунт. Шифрование end-to-end.</p>
+            </div>
+            <div class="feature">
+                <div class="icon">💰</div>
+                <h4>Экономия</h4>
+                <p>AI заменяет 2-3 сотрудников. Окупаемость за первый месяц.</p>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>🚀 Начните автоматизировать бизнес сегодня</h2>
+            <p>Присоединяйтесь к 500+ предпринимателям, которые уже экономят с AI</p>
+            <a href="https://t.me/ai_tools_hub" class="cta-btn" style="font-size: 1.1em; padding: 15px 40px;">Перейти в Telegram →</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 AI Tools Hub. Используйте AI для роста вашего бизнеса.</p>
+        <p style="margin-top: 8px;">Сделано с 🤖 и ❤️</p>
+    </footer>
+</body>
+</html>
